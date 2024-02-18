@@ -1,5 +1,9 @@
 const ValidationError = require('./validation-error');
 
+class MaximumLengthExceededError  extends ValidationError {
+  
+}
+
 // Your code here
 
 /****************************************************************************/
